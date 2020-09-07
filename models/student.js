@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 
+//Definição do Schema de student
 const studentSchema = mongoose.Schema({
   name: {
     type: String,
