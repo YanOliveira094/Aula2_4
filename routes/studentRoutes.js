@@ -52,8 +52,8 @@ app.patch('/student/:id', async (req, res) => {
   }
 });
 
-app.put("/student/:id", async(req, res) =>{
-  res.send("Teste");
-});
+app.delete("/teste", (req, res) =>{
+  console.log("Teste");
+})
 
 export { app as studentRouter };
